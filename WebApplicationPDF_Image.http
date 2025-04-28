@@ -1,0 +1,6 @@
+@WebApplicationPDF_Image_HostAddress = http://localhost:5136
+
+GET {{WebApplicationPDF_Image_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
