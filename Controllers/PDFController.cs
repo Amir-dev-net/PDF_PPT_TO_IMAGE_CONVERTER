@@ -22,7 +22,7 @@ namespace WebApplicationPDF_Image.Controllers
             _env = env;
         }
 
-        [HttpPost]
+        [HttpPost]//Post Method
         public async Task<IActionResult> UploadFile(IFormFile file)
         {
             if (file == null || file.Length == 0)
